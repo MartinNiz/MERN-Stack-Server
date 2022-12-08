@@ -22,6 +22,6 @@ app.get('/', (req, res) => {
 })
 
 //Server
-app.listen(5000, function () {
-  console.log('Server on port: 5000');
+app.listen(3001, () => {
+  console.log('Server on port: 3001');
 });
